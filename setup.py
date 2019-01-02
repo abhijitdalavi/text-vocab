@@ -7,6 +7,7 @@ setup(
     name='textvocab',
     version=VERSION,
     url='https://github.com/abhijitdalavi/textvocab.git',
+    scripts = ["text_vocab.py","categarization.py","__init__.py"],
     description=(
         "used to create a vocabulary and extract the vocabulary"),
     keywords="TextVocab, textvocab",
@@ -22,5 +23,5 @@ setup(
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6'],
+        'Programming Language :: Python :: 3.6']
 )
