@@ -4,12 +4,12 @@ from setuptools import find_packages, setup
 from __init__ import VERSION
 
 setup(
-    name='text-vocab',
+    name='textvocab',
     version=VERSION,
-    url='https://github.com/abhijitdalavi/text-vocab.git',
+    url='https://github.com/abhijitdalavi/textvocab.git',
     description=(
         "used to create a vocabulary and extract the vocabulary"),
-    keywords="TextVocab, Text-vocab",
+    keywords="TextVocab, textvocab",
     include_package_data=True,
     classifiers=[
         'Development Status :: 0.0.1 - Beta',
